@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
-    "scheme": "gornskiaanimationsmobileapp",
+    "scheme": "skiaanimations",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,10 +14,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000"
       },
       "edgeToEdgeEnabled": true,
-      "package": "go.rnskiaanimations.mobileapp"
+      "package": "com.skiaanimations"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/skia-splashscreen.webp",
+          "image": "./assets/images/skia-splashscreen.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#24212a"
